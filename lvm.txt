@@ -1,11 +1,11 @@
+  PV /dev/sda2   VG centos     lvm2 [9,51 GiB / 0    free]
   PV /dev/sdb1   VG vg_iscsi   lvm2 [396,00 MiB / 96,00 MiB free]
   PV /dev/sdb2   VG vg_iscsi   lvm2 [396,00 MiB / 96,00 MiB free]
-  PV /dev/sda2   VG centos     lvm2 [9,51 GiB / 0    free]
   Total: 3 [10,28 GiB] / in use: 3 [10,28 GiB] / in no VG: 0 [0   ]
   Reading all physical volumes.  This may take a while...
-  Found volume group "vg_iscsi" using metadata type lvm2
   Found volume group "centos" using metadata type lvm2
-  ACTIVE            '/dev/vg_iscsi/lv_diskdb' [300,00 MiB] inherit
-  ACTIVE            '/dev/vg_iscsi/lv_diskapp' [300,00 MiB] inherit
+  Found volume group "vg_iscsi" using metadata type lvm2
   ACTIVE            '/dev/centos/swap' [1,00 GiB] inherit
   ACTIVE            '/dev/centos/root' [8,51 GiB] inherit
+  ACTIVE            '/dev/vg_iscsi/lv_diskdb' [300,00 MiB] inherit
+  ACTIVE            '/dev/vg_iscsi/lv_diskapp' [300,00 MiB] inherit
